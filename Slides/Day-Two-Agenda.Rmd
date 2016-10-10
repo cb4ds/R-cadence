@@ -1,14 +1,13 @@
 ---
 title: "Day Two Agenda"
 author: "Ali Zaidi"
-date: "September 21, 2016"
+date: "October 11th, 2016"
 output:
   revealjs::revealjs_presentation:
     reveal_options:
       previewLinks: yes
       slideNumber: yes
       css: ../slides.css
-
     reveal_plugins:
     - zoom
     - notes

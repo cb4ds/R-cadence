@@ -1,23 +1,31 @@
 Microsoft R for Data Science Workshop
 ======================================
 
+[![Join the chat at https://gitter.im/mr4ds/Lobby](https://badges.gitter.im/mr4ds/Lobby.svg)](https://gitter.im/mr4ds/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Welcome to the Microsoft R for Data Science Course Repository. You can find the latest materials from the workshop here, and links for course materials from prior iterations of the course ca be found in the [version pane](https://github.com/akzaidi/R-cadence/releases). While this course is intended for data scientists and analysts interested in the Microsoft R programming stack (i.e., Microsoft employees in the Algorithms and Data Science group), other programmers might find the material useful as well.
 
 ## Class Links
 
-+ [collab edit](http://collabedit.com/cufq4)
++ [course webpage](https://akzaidi.github.io/R-cadence/)
++ [gitter page](https://gitter.im/mr4ds/Lobby)
+    * we are going to try and use gitter as a discussion forum for anything related to the course materials, and Microsoft R Server more generally
++ [Course wiki](https://github.com/akzaidi/R-cadence/wiki)
+    * the course wiki contains some instructions on how to install the class applications locally
+    * it also contains the course syllabus
+
 
 ## Course Outline
 
-Please refer to the [course syllabus](https://github.com/akzaidi/R-cadence/wiki/Syllabus) for the full syllabus. The goal of this course is to cover the following modules, although some of the latter modules might be repalced for a hackathon/office hours.
+Please refer to the [course syllabus](https://github.com/akzaidi/R-cadence/wiki/Syllabus) for the full syllabus. The goal of this course is to cover the following modules, although some of the latter modules may be repalced for a hackathon/office hours.
 
 + Topics:
     * R Fundamentals
-    * Data Manipulation with `dplyr`
-    * Data Manipulation with `dplyrXdf`
+    * Data Manipulation with [`dplyr`](https://cran.r-project.org/web/packages/dplyr/)
+    * Data Manipulation with [`dplyrXdf`](https://github.com/RevolutionAnalytics/dplyrXdf)
     * Modeling and Scoring with Microsoft R
     * Parallel Computing with the `RevoScaleR` package
-    * Deploying Models with the `AzureML` package
+    * Deploying Models with the [`AzureML`](https://github.com/RevolutionAnalytics/AzureML) package
     * RxSpark and R APIs for Spark
 
 ## DSVMs
@@ -25,19 +33,10 @@ Please refer to the [course syllabus](https://github.com/akzaidi/R-cadence/wiki/
 We will use DSVMs (Data Science Virtual Machines) from the Azure marketplace to run the course materials. For the Spark training, we will use Spark HDInsight Premium clusters, also from Azure. If you are interested in running these materials in a different environment, see the course [wiki](https://github.com/akzaidi/R-cadence/wiki) for instructions. 
 
 + JupyterHub:
-	* https://redmondvm.westus.cloudapp.azure.com:8000/
-	* https://redmondvmtwo.westus.cloudapp.azure.com:8000/
+    * https://svcdsvm.westus.cloudapp.azure.com:8000/
 + RStudio Server:
-	* http://redmondvm.westus.cloudapp.azure.com:8787/
-	* http://redmondthree.westus.cloudapp.azure.com:8787/
+    * http://svcdsvm.westus.cloudapp.azure.com:8787/
    
 ### Credentials
 
-+ You can find credentials for the VMs at [aka.ms/redmond-r](https://aka.ms/redmond-r)
-
-# Course Repository
-
-We are still in the process of transitioning our course materials from our Revolution Repository to the Azure repository and Cortana gallery. Currently, you can find the following two courses on the Cortana Gallery:
-
-* [MRS for SAS Users](https://github.com/Azure/Cortana-Intelligence-Gallery-Content/blob/master/Tutorials/MRS-for-SAS-Users/MRS%20for%20SAS%20Users.md)
-* [R for SAS Users](https://github.com/Azure/Cortana-Intelligence-Gallery-Content/blob/master/Tutorials/R-for-SAS-Users/R%20for%20SAS%20Users.md)
++ I'll send you your credentials by email

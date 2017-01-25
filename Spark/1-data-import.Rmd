@@ -13,15 +13,15 @@ sc <- spark_connect(master = "yarn-client")
 
 ```{r download_data}
 
-download.file("https://alizaidi.blob.core.windows.net/training/sample_taxi.csv", "sample_taxi.csv")
+# download.file("https://alizaidi.blob.core.windows.net/training/sample_taxi.csv", "sample_taxi.csv")
 # or the larger data!
 download.file("http://alizaidi.blob.core.windows.net/training/taxi_large.csv", "taxi_large.csv")
 
 wasb_taxi <- "/NYCTaxi/sample"
 rxHadoopListFiles("/")
 rxHadoopMakeDir(wasb_taxi)
-rxHadoopCopyFromLocal("sample_taxi", wasb_taxi)
-rxHadoopCommand("fs -cat /NYCTaxi/sample/sample_taxi.csv | head")
+rxHadoopCopyFromLocal("taxi_large.csv", wasb_taxi)
+rxHadoopCommand("fs -cat /NYCTaxi/sample/taxi_large.csv | head")
 
 
 ```

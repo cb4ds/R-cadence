@@ -7,12 +7,14 @@ Welcome to the Microsoft R for Data Science Course Repository. You can find the 
 
 ## Class Links
 
-+ [course webpage](https://akzaidi.github.io/R-cadence/)
++ [course webpage](https://azure.github.io/mr4ds/)
 + [gitter page](https://gitter.im/mr4ds/Lobby)
     * we are going to try and use gitter as a discussion forum for anything related to the course materials, and Microsoft R Server more generally
-+ [Course wiki](https://github.com/akzaidi/R-cadence/wiki)
++ [Course wiki](https://github.com/Azure/mr4ds/wiki)
     * the course wiki contains some instructions on how to install the class applications locally
     * it also contains the course syllabus
++ [Class Playlist](https://open.spotify.com/user/pakmanaz/playlist/02R6d9fLRwxI06EHcm2Mcs)
+    * As your instructor, I'll also be your workshop dj. Feel free to make requests.
 
 
 ## Course Outline
@@ -33,9 +35,9 @@ Please refer to the [course syllabus](https://github.com/akzaidi/R-cadence/wiki/
 We will use DSVMs (Data Science Virtual Machines) from the Azure marketplace to run the course materials. For the Spark training, we will use Spark HDInsight Premium clusters, also from Azure. If you are interested in running these materials in a different environment, see the course [wiki](https://github.com/akzaidi/R-cadence/wiki) for instructions. 
 
 + JupyterHub:
-    * https://svcdsvm.westus.cloudapp.azure.com:8000/
+    * https://mr4dsmunchen.eastus2.cloudapp.azure.com:8000
 + RStudio Server:
-    * http://svcdsvm.westus.cloudapp.azure.com:8787/
+    * http://mr4dsmunchen.eastus2.cloudapp.azure.com:8787/
    
 ### Credentials
 
